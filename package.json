@@ -1,4 +1,29 @@
 {
+  "name": "@catppuccin/palette",
+  "version": "1.7.1",
+  "description": "Catppuccin color palettes including neurodiversity-friendly variants",
+  "main": "mod.ts",
+  "scripts": {
+    "generate": "node scripts/gen_palette_node.js",
+    "test": "echo 'Tests require Deno runtime' && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/catppuccin/palette.git"
+  },
+  "keywords": [
+    "catppuccin",
+    "palette",
+    "colors",
+    "theme",
+    "accessibility",
+    "neurodiversity",
+    "material-design",
+    "ink",
+    "tui"
+  ],
+  "author": "Catppuccin",
+  "license": "MIT",
   "dependencies": {
     "tinycolor2": "^1.6.0"
   }

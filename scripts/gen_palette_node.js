@@ -27,7 +27,22 @@ const adjustForBright = (hex, dark) => {
   return tinycolor(hsl).toHexString();
 };
 
-const packageJson = JSON.parse(fs.readFileSync(path.join(__dirname, '../deno.json'), 'utf8'));
+// Read version from package.json (this file is for Node.js execution)
+let version = '1.7.1';
+try {
+  const packageJson = JSON.parse(fs.readFileSync(path.join(__dirname, '../package.json'), 'utf8'));
+  if (packageJson.version) {
+    version = packageJson.version;
+  }
+} catch (e) {
+  // Fallback to deno.json if package.json doesn't exist yet
+  try {
+    const denoJson = JSON.parse(fs.readFileSync(path.join(__dirname, '../deno.json'), 'utf8'));
+    version = denoJson.version;
+  } catch (e2) {
+    console.warn('Could not read version, using default:', version);
+  }
+}
 
 const definitions = {
   latte: {
@@ -349,7 +364,7 @@ for (const [flavorName, flavor] of Object.entries(definitions)) {
 }
 
 const result = {
-  version: packageJson.version,
+  version: version,
   ...formatted,
 };
 
