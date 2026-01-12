@@ -10,7 +10,7 @@ const entriesFromObject = <T extends object>(obj: T): Entries<T> =>
 /**
  * All flavor names of Catppuccin.
  */
-export type FlavorName = "latte" | "frappe" | "macchiato" | "mocha";
+export type FlavorName = "latte" | "frappe" | "macchiato" | "mocha" | "frappe-nd" | "macchiato-nd" | "mocha-nd";
 
 /**
  * Accent colors of Catppuccin.
@@ -154,6 +154,24 @@ export type Flavors<T> = {
    * High-saturation, High-contrast dark variant.
    */
   mocha: T;
+
+  /**
+   * Neurodiversity-friendly Frappé variant with reduced saturation and Material Design 3 principles.
+   * Based on Catppuccin Frappé with modifications for focus and reduced eye strain.
+   */
+  "frappe-nd": T;
+
+  /**
+   * Neurodiversity-friendly Macchiato variant with reduced saturation and Material Design 3 principles.
+   * Based on Catppuccin Macchiato with modifications for focus and reduced eye strain.
+   */
+  "macchiato-nd": T;
+
+  /**
+   * Neurodiversity-friendly Mocha variant with reduced saturation and Material Design 3 principles.
+   * Based on Catppuccin Mocha with modifications for focus and reduced eye strain.
+   */
+  "mocha-nd": T;
 };
 
 export type ColorFormat = Readonly<{
