@@ -10,6 +10,22 @@
     <a href="https://github.com/catppuccin/palette/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/palette?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
+## ✨ New: Neurodiversity-Friendly (ND) Variants
+
+We now offer three neurodiversity-friendly variants of our dark themes, designed with Material Design 3 principles for enhanced accessibility:
+
+- **Frappé ND** 🧩 - Calmer colors for minimal distraction
+- **Macchiato ND** 🎯 - Warmer tones for reduced eye strain  
+- **Mocha ND** 🌟 - Optimized for focus and concentration
+
+These variants feature:
+- 🎨 Reduced saturation to minimize sensory overload
+- 📖 Higher text contrast for better readability
+- 🌡️ Warmer base tones to reduce eye strain
+- ♿ Material Design 3 accessibility compliance
+
+Perfect for TUI apps with [Ink](https://github.com/vadimdemedes/ink)! See [ND Themes Documentation](docs/nd-themes.md) for details.
+
 ## Usage
 
 ### Node

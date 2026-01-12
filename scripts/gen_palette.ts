@@ -570,6 +570,423 @@ const definitions = {
       },
     },
   },
+  "frappe-nd": {
+    name: "Frappé ND",
+    emoji: "🧩",
+    dark: true,
+    colors: {
+      // Neurodiversity-friendly Frappé variant with Material Design 3 principles
+      // Reduced saturation, higher contrast, warmer tones for reduced eye strain
+      rosewater: {
+        name: "Rosewater",
+        object: new Color("#e8c9c4"),
+        accent: true,
+      },
+      flamingo: {
+        name: "Flamingo",
+        object: new Color("#e5b7b7"),
+        accent: true,
+      },
+      pink: {
+        name: "Pink",
+        object: new Color("#e9afd9"),
+        accent: true,
+      },
+      mauve: {
+        name: "Mauve",
+        object: new Color("#be94dd"),
+        accent: true,
+      },
+      red: {
+        name: "Red",
+        object: new Color("#de7a7d"),
+        accent: true,
+      },
+      maroon: {
+        name: "Maroon",
+        object: new Color("#e08e93"),
+        accent: true,
+      },
+      peach: {
+        name: "Peach",
+        object: new Color("#e69b6f"),
+        accent: true,
+      },
+      yellow: {
+        name: "Yellow",
+        object: new Color("#dcc089"),
+        accent: true,
+      },
+      green: {
+        name: "Green",
+        object: new Color("#9cc988"),
+        accent: true,
+      },
+      teal: {
+        name: "Teal",
+        object: new Color("#7ac0b5"),
+        accent: true,
+      },
+      sky: {
+        name: "Sky",
+        object: new Color("#8dc9d2"),
+        accent: true,
+      },
+      sapphire: {
+        name: "Sapphire",
+        object: new Color("#7ab9d3"),
+        accent: true,
+      },
+      blue: {
+        name: "Blue",
+        object: new Color("#82a2e4"),
+        accent: true,
+      },
+      lavender: {
+        name: "Lavender",
+        object: new Color("#abb3e7"),
+        accent: true,
+      },
+      text: {
+        name: "Text",
+        object: new Color("#d0d8f0"),
+        accent: false,
+      },
+      subtext1: {
+        name: "Subtext 1",
+        object: new Color("#b7c1dd"),
+        accent: false,
+      },
+      subtext0: {
+        name: "Subtext 0",
+        object: new Color("#a0a8c7"),
+        accent: false,
+      },
+      overlay2: {
+        name: "Overlay 2",
+        object: new Color("#8f95b4"),
+        accent: false,
+      },
+      overlay1: {
+        name: "Overlay 1",
+        object: new Color("#7e84a0"),
+        accent: false,
+      },
+      overlay0: {
+        name: "Overlay 0",
+        object: new Color("#6d728d"),
+        accent: false,
+      },
+      surface2: {
+        name: "Surface 2",
+        object: new Color("#5d6179"),
+        accent: false,
+      },
+      surface1: {
+        name: "Surface 1",
+        object: new Color("#4d5166"),
+        accent: false,
+      },
+      surface0: {
+        name: "Surface 0",
+        object: new Color("#3d4154"),
+        accent: false,
+      },
+      base: {
+        name: "Base",
+        object: new Color("#2d3342"),
+        accent: false,
+      },
+      mantle: {
+        name: "Mantle",
+        object: new Color("#262a37"),
+        accent: false,
+      },
+      crust: {
+        name: "Crust",
+        object: new Color("#1f2230"),
+        accent: false,
+      },
+    },
+  },
+  "macchiato-nd": {
+    name: "Macchiato ND",
+    emoji: "🎯",
+    dark: true,
+    colors: {
+      // Neurodiversity-friendly Macchiato variant with Material Design 3 principles
+      // Reduced saturation, higher contrast, warmer tones for reduced eye strain
+      rosewater: {
+        name: "Rosewater",
+        object: new Color("#ead0cc"),
+        accent: true,
+      },
+      flamingo: {
+        name: "Flamingo",
+        object: new Color("#e7bebe"),
+        accent: true,
+      },
+      pink: {
+        name: "Pink",
+        object: new Color("#ecb4dd"),
+        accent: true,
+      },
+      mauve: {
+        name: "Mauve",
+        object: new Color("#bd97e8"),
+        accent: true,
+      },
+      red: {
+        name: "Red",
+        object: new Color("#e48191"),
+        accent: true,
+      },
+      maroon: {
+        name: "Maroon",
+        object: new Color("#e59298"),
+        accent: true,
+      },
+      peach: {
+        name: "Peach",
+        object: new Color("#eca379"),
+        accent: true,
+      },
+      yellow: {
+        name: "Yellow",
+        object: new Color("#e5cc9a"),
+        accent: true,
+      },
+      green: {
+        name: "Green",
+        object: new Color("#9dd291"),
+        accent: true,
+      },
+      teal: {
+        name: "Teal",
+        object: new Color("#84cdc1"),
+        accent: true,
+      },
+      sky: {
+        name: "Sky",
+        object: new Color("#89cfd9"),
+        accent: true,
+      },
+      sapphire: {
+        name: "Sapphire",
+        object: new Color("#75bdd9"),
+        accent: true,
+      },
+      blue: {
+        name: "Blue",
+        object: new Color("#84a7eb"),
+        accent: true,
+      },
+      lavender: {
+        name: "Lavender",
+        object: new Color("#aab5ee"),
+        accent: true,
+      },
+      text: {
+        name: "Text",
+        object: new Color("#d3dbf0"),
+        accent: false,
+      },
+      subtext1: {
+        name: "Subtext 1",
+        object: new Color("#bac3db"),
+        accent: false,
+      },
+      subtext0: {
+        name: "Subtext 0",
+        object: new Color("#a2aac4"),
+        accent: false,
+      },
+      overlay2: {
+        name: "Overlay 2",
+        object: new Color("#8f94b0"),
+        accent: false,
+      },
+      overlay1: {
+        name: "Overlay 1",
+        object: new Color("#7c819b"),
+        accent: false,
+      },
+      overlay0: {
+        name: "Overlay 0",
+        object: new Color("#696e86"),
+        accent: false,
+      },
+      surface2: {
+        name: "Surface 2",
+        object: new Color("#575a71"),
+        accent: false,
+      },
+      surface1: {
+        name: "Surface 1",
+        object: new Color("#45485d"),
+        accent: false,
+      },
+      surface0: {
+        name: "Surface 0",
+        object: new Color("#33364a"),
+        accent: false,
+      },
+      base: {
+        name: "Base",
+        object: new Color("#222536"),
+        accent: false,
+      },
+      mantle: {
+        name: "Mantle",
+        object: new Color("#1c1e2d"),
+        accent: false,
+      },
+      crust: {
+        name: "Crust",
+        object: new Color("#161823"),
+        accent: false,
+      },
+    },
+  },
+  "mocha-nd": {
+    name: "Mocha ND",
+    emoji: "🌟",
+    dark: true,
+    colors: {
+      // Neurodiversity-friendly Mocha variant with Material Design 3 principles
+      // Reduced saturation, higher contrast, warmer tones for reduced eye strain
+      rosewater: {
+        name: "Rosewater",
+        object: new Color("#e5cdc7"),
+        accent: true,
+      },
+      flamingo: {
+        name: "Flamingo",
+        object: new Color("#e7bcbc"),
+        accent: true,
+      },
+      pink: {
+        name: "Pink",
+        object: new Color("#e8b3d8"),
+        accent: true,
+      },
+      mauve: {
+        name: "Mauve",
+        object: new Color("#bb9ae5"),
+        accent: true,
+      },
+      red: {
+        name: "Red",
+        object: new Color("#e28296"),
+        accent: true,
+      },
+      maroon: {
+        name: "Maroon",
+        object: new Color("#e0939c"),
+        accent: true,
+      },
+      peach: {
+        name: "Peach",
+        object: new Color("#eca87a"),
+        accent: true,
+      },
+      yellow: {
+        name: "Yellow",
+        object: new Color("#e8d5a1"),
+        accent: true,
+      },
+      green: {
+        name: "Green",
+        object: new Color("#9dd696"),
+        accent: true,
+      },
+      teal: {
+        name: "Teal",
+        object: new Color("#8bd5c7"),
+        accent: true,
+      },
+      sky: {
+        name: "Sky",
+        object: new Color("#82d1dd"),
+        accent: true,
+      },
+      sapphire: {
+        name: "Sapphire",
+        object: new Color("#6fbddb"),
+        accent: true,
+      },
+      blue: {
+        name: "Blue",
+        object: new Color("#82a9e8"),
+        accent: true,
+      },
+      lavender: {
+        name: "Lavender",
+        object: new Color("#a8b4ed"),
+        accent: true,
+      },
+      text: {
+        name: "Text",
+        object: new Color("#d5ddf0"),
+        accent: false,
+      },
+      subtext1: {
+        name: "Subtext 1",
+        object: new Color("#bec6da"),
+        accent: false,
+      },
+      subtext0: {
+        name: "Subtext 0",
+        object: new Color("#a8afc5"),
+        accent: false,
+      },
+      overlay2: {
+        name: "Overlay 2",
+        object: new Color("#969caf"),
+        accent: false,
+      },
+      overlay1: {
+        name: "Overlay 1",
+        object: new Color("#828899"),
+        accent: false,
+      },
+      overlay0: {
+        name: "Overlay 0",
+        object: new Color("#6f7483"),
+        accent: false,
+      },
+      surface2: {
+        name: "Surface 2",
+        object: new Color("#5a5e6e"),
+        accent: false,
+      },
+      surface1: {
+        name: "Surface 1",
+        object: new Color("#464a58"),
+        accent: false,
+      },
+      surface0: {
+        name: "Surface 0",
+        object: new Color("#323642"),
+        accent: false,
+      },
+      base: {
+        name: "Base",
+        object: new Color("#1f2129"),
+        accent: false,
+      },
+      mantle: {
+        name: "Mantle",
+        object: new Color("#191b21"),
+        accent: false,
+      },
+      crust: {
+        name: "Crust",
+        object: new Color("#12141a"),
+        accent: false,
+      },
+    },
+  },
 };
 
 const ansiMappings = {
